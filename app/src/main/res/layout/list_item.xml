@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="top"
+            android:gravity="start"
             android:paddingLeft="@dimen/list_item_left_padding"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
@@ -45,11 +45,11 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="top"
+            android:gravity="start"
             android:paddingLeft="@dimen/list_item_left_padding"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
-            tools:text="Attraction Address" />
+            tools:text="Attraction Description" />
 
 
     </LinearLayout>

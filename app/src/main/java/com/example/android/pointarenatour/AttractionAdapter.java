@@ -35,7 +35,7 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         attractionAddressTextView.setText(currentAttraction.getAttractionAddress());
 
         TextView attractionDescriptionTextView = (TextView) listItemView.findViewById(R.id.attraction_description);
-        attractionAddressTextView.setText(currentAttraction.getAttractionDescription());
+        attractionDescriptionTextView.setText(currentAttraction.getAttractionDescription());
 
         ImageView attractionImageView = (ImageView) listItemView.findViewById(R.id.attraction_image);
         if (currentAttraction.hasImage()) {
