@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Point Arena Tour</string>
+    <string name="category_accommodation">Accommodations</string>
+    <string name="category_retail">Retail</string>
+    <string name="category_sights">Sights</string>
+    <string name="category_parks">Services</string>
+</resources>
