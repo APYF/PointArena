@@ -1,5 +1,6 @@
 package com.example.android.pointarenatour;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -24,12 +25,22 @@ public class ShoppingFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Outback Garden & Feed", "240 Main St., Point Arena, CA 95468", "Garden Nursery, feed &  pet supplies."));
-        attractions.add(new Attraction("Point Arena Tileworks", "80 Main St., Point Arena, CA 95468", "Handmade tiles. 1000's on display."));
-        attractions.add(new Attraction("Arena Pharmacy", "235 Main St., Point Arena, CA 95468", "Prescription, over the counter remedies, sundries, gifts & cards."));
-        attractions.add(new Attraction("Coast Highway Art Collective", "284 Main St., Point Arena, CA 95468", "Fine art and gifts made by local artists."));
-        attractions.add(new Attraction("The Green Room", "138 Main St., Point Arena, CA 95468", "Cannabis dispensary & accessories."));
+        Resources res = getResources();
 
+        String listingStrings1[] = res. getStringArray(R.array.shopping_1);
+        attractions.add(new Attraction(listingStrings1[0], listingStrings1[1], listingStrings1[2]));
+
+        String listingStrings2[] = res. getStringArray(R.array.shopping_2);
+        attractions.add(new Attraction(listingStrings2[0], listingStrings2[1], listingStrings2[2]));
+
+        String listingStrings3[] = res. getStringArray(R.array.shopping_3);
+        attractions.add(new Attraction(listingStrings3[0], listingStrings3[1], listingStrings3[2]));
+
+        String listingStrings4[] = res. getStringArray(R.array.shopping_4);
+        attractions.add(new Attraction(listingStrings4[0], listingStrings4[1], listingStrings4[2]));
+
+        String listingStrings5[] = res. getStringArray(R.array.shopping_5);
+        attractions.add(new Attraction(listingStrings5[0], listingStrings5[1], listingStrings5[2]));
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);

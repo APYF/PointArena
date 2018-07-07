@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="shopping_1">
+        <item>Outback Garden &amp; Feed</item>
+        <item>240 Main St., Point Arena, CA 95468</item>
+        <item>Garden Nursery, feed &amp;  pet supplies.</item>
+    </string-array>
+    <string-array name="shopping_2">
+        <item>Point Arena Tileworks</item>
+        <item>80 Main St., Point Arena, CA 95468</item>
+        <item>Handmade tiles. 1000\'s on display.</item>
+    </string-array>
+    <string-array name="shopping_3">
+        <item>Arena Pharmacy</item>
+        <item>235 Main St., Point Arena, CA 95468</item>
+        <item>Prescription, over the counter remedies, sundries, gifts &amp; cards.</item>
+    </string-array>
+    <string-array name="shopping_4">
+        <item>Coast Highway Art Collective</item>
+        <item>284 Main St., Point Arena, CA 95468</item>
+        <item>Fine art and gifts made by local artists.</item>
+    </string-array>
+    <string-array name="shopping_5">
+        <item>The Green Room</item>
+        <item>138 Main St., Point Arena, CA 95468</item>
+        <item>Cannabis dispensary &amp; accessories.</item>
+    </string-array>
+</resources>
