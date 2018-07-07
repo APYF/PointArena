@@ -7,7 +7,7 @@
     <dimen name="icon_size">24dp</dimen>
     <dimen name="attraction_image_width">100dp</dimen>
     <dimen name="font_size">18sp</dimen>
-    <dimen name="font_size2">16dp</dimen>
+    <dimen name="font_size2">16sp</dimen>
 
 
 </resources>
