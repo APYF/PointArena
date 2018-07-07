@@ -42,7 +42,7 @@ public class AccommodationFragment extends Fragment {
 
         String listingStrings5[] = res. getStringArray(R.array.accomodations_5);
         attractions.add(new Attraction(listingStrings5[0], listingStrings5[1], listingStrings5[2]));
-        
+
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);

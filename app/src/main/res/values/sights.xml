@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sights_1">
+        <item>Point Arena-Stornetta Public Lands</item>
+        <item>Take the trail behind City Hall or head out on Lighthoue Rd.</item>
+        <item>Head out for a bluff trail or meander into the beach cove</item>
+    </string-array>
+    <string-array name="sights_2">
+        <item>Manchester Beach</item>
+        <item>Access via Stonesboro Road in Manchester</item>
+        <item>5 mile beach. Beautiful hiking &amp; camping.</item>
+    </string-array>
+    <string-array name="sights_3">
+        <item>Arena Cove &amp; Point Arena City Pier</item>
+        <item>810 Port Rd, Point Arena, CA 95468</item>
+        <item>Boat launch, hot showers, fishing, recycling drop-off.</item>
+    </string-array>
+    <string-array name="sights_4">
+        <item>Pelican Bluffs Trail</item>
+        <item>Between Mile-marker 14.3 &amp; 13.5 (south of Point Arena)</item>
+        <item>Bluff trails showcase a forsest of Bishops pines &amp; our stunning white cliffs.</item>
+    </string-array>
+    <string-array name="sights_5">
+        <item>Bowling Ball Beach &amp; Schooner Gulch</item>
+        <item>Mile marker 11.41 (south of Point Arena)</item>
+        <item>It is named for the spherical sandstone concretions found there at low tide.</item>
+    </string-array>
+</resources>
