@@ -24,11 +24,11 @@ public class SightsFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Point Arena-Stornetta Unit of the California Coastal National Monument", "Take the trail behind City Hall or head out on Lighthoue Road", "Head out for a bluff trail or meander into the beach cove"));
-        attractions.add(new Attraction("Manchester Beach", "Access via Stonesboro Road in Manchester", "5 mile beach. Beautiful hiking & camping."));
-        attractions.add(new Attraction("Arena Cove & Point Arena City Pier", "810 Port Rd, Point Arena, CA 95468", "Boat launch, hot showers, fishing, recycling drop-off."));
-        attractions.add(new Attraction("Pelican Bluffs Trail", "Between mile-marker 14.3 & 13.5 (1 mile south of Point Arena)", "Bluff trails showcase a forsest of Bishops pines & our stunning white cliffs"));
-        attractions.add(new Attraction("Bowling Ball Beach & Schooner Gulch", "Mile marker 11.41 (south of Point Arena)", "It is named for the spherical sandstone concretions found there at low tide."));
+        attractions.add(new Attraction("Point Arena-Stornetta Unit of the California Coastal National Monument", "Take the trail behind City Hall or head out on Lighthoue Road", "Head out for a bluff trail or meander into the beach cove", R.drawable.pointareana_stornetta));
+        attractions.add(new Attraction("Manchester Beach", "Access via Stonesboro Road in Manchester", "5 mile beach. Beautiful hiking & camping.", R.drawable.manchester_beach));
+        attractions.add(new Attraction("Arena Cove & Point Arena City Pier", "810 Port Rd, Point Arena, CA 95468", "Boat launch, hot showers, fishing, recycling drop-off.", R.drawable.arena_cove));
+        attractions.add(new Attraction("Pelican Bluffs Trail", "Between mile-marker 14.3 & 13.5 (1 mile south of Point Arena)", "Bluff trails showcase a forsest of Bishops pines & our stunning white cliffs", R.drawable.pelican_bluff));
+        attractions.add(new Attraction("Bowling Ball Beach & Schooner Gulch", "Mile marker 11.41 (south of Point Arena)", "It is named for the spherical sandstone concretions found there at low tide.", R.drawable.bowling_ball_beach));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 
