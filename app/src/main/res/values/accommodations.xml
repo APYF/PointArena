@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accomodations_1">
+        <item>Wharf Master\'s Inn</item>
+        <item>785 Port Rd, Point Arena, CA 95468</item>
+        <item>Ocean views, private balconies, fireplaces, Jacuzzi tubs.</item>
+    </string-array>
+    <string-array name="accomodations_2">
+        <item>Wildflower</item>
+        <item>160 Main St., Point Arena, CA 95468</item>
+        <item>Sustainable boutique motel, wifi &amp; breakfast</item>
+    </string-array>
+    <string-array name="accomodations_3">
+        <item>Roseman Creek Ranch</item>
+        <item>42450 Roseman Creek Rd, Gualala, CA 95445</item>
+        <item>Off-grid permaculture farm, farm stays &amp; camping.</item>
+    </string-array>
+    <string-array name="accomodations_4">
+        <item>Oz Farm &amp; Retreat Center</item>
+        <item>41601 Mountain View Rd, Manchester, CA 95459</item>
+        <item>7 cabins, Community CHoue &amp; Geodesic Domes.</item>
+    </string-array>
+    <string-array name="accomodations_5">
+        <item>Coast Guard House Historic Inn &amp; Cottages</item>
+        <item>41601 Mountain View Rd, Manchester, CA 95459</item>
+        <item>Private ocean-view cottage with fireplaces &amp; whirlpool spas.</item>
+    </string-array>
+</resources>

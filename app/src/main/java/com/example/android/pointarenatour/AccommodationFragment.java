@@ -1,5 +1,6 @@
 package com.example.android.pointarenatour;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -25,12 +26,23 @@ public class AccommodationFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Wharf Master's Inn", "785 Port Rd, Point Arena, CA 95468", "Ocean views,private balconies, fireplaces, Jacuzzi tubs."));
-        attractions.add(new Attraction("Wildflower", "160 Main St., Point Arena, CA 95468", "Sustainable boutique motel, wifi & breakfast"));
-        attractions.add(new Attraction("Roseman Creek Ranch", "42450 Roseman Creek Rd, Gualala, CA 95445", "Off-grid permaculture farm, farm stays & camping."));
-        attractions.add(new Attraction("Oz Farm & Retreat Center", "41601 Mountain View Rd, Manchester, CA 95459", "7 cabins, Community CHoue & Geodesic Domes."));
-        attractions.add(new Attraction("Coast Guard House Historic Inn & Cottages", "695 Arena Cv, Point Arena, CA 95468", "Private ocean-view cottage with fireplaces & whirlpool spas."));
+        Resources res = getResources();
 
+        String listingStrings1[] = res. getStringArray(R.array.accomodations_1);
+        attractions.add(new Attraction(listingStrings1[0], listingStrings1[1], listingStrings1[2]));
+
+        String listingStrings2[] = res. getStringArray(R.array.accomodations_2);
+        attractions.add(new Attraction(listingStrings2[0], listingStrings2[1], listingStrings2[2]));
+
+        String listingStrings3[] = res. getStringArray(R.array.accomodations_3);
+        attractions.add(new Attraction(listingStrings3[0], listingStrings3[1], listingStrings3[2]));
+
+        String listingStrings4[] = res. getStringArray(R.array.accomodations_4);
+        attractions.add(new Attraction(listingStrings4[0], listingStrings4[1], listingStrings4[2]));
+
+        String listingStrings5[] = res. getStringArray(R.array.accomodations_5);
+        attractions.add(new Attraction(listingStrings5[0], listingStrings5[1], listingStrings5[2]));
+        
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 
         ListView listView = (ListView) rootView.findViewById(R.id.list);
