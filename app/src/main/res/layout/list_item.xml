@@ -24,21 +24,39 @@
             android:layout_weight="1"
             android:gravity="bottom"
             android:paddingLeft="@dimen/list_item_left_padding"
+            android:paddingRight="@dimen/list_item_right_padding"
             android:textColor="@color/fontColor"
             android:textSize="18sp"
             android:textStyle="bold"
             tools:text="Attraction Name"/>
 
-        <TextView
-            android:id="@+id/attraction_address"
+        <LinearLayout
+            android:id="@+id/attraction_address_layout"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/list_item_left_padding"
+            android:paddingRight="@dimen/list_item_right_padding">
+
+            <ImageView
+                android:id="@+id/map_icon"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_place_black_24dp" />
+
+        <TextView
+            android:id="@+id/attraction_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/list_item_left_padding"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             tools:text="Attraction Address" />
+
+    </LinearLayout>
 
         <TextView
             android:id="@+id/attraction_description"
@@ -47,6 +65,7 @@
             android:layout_weight="1"
             android:gravity="top"
             android:paddingLeft="@dimen/list_item_left_padding"
+            android:paddingRight="@dimen/list_item_right_padding"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             tools:text="Attraction Description" />

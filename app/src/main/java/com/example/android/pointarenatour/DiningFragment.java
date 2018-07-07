@@ -24,11 +24,15 @@ public class DiningFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Wharf Master's Inn", "785 Port Rd, Point Arena, CA 95468", "Ocean views,private balconies, fireplaces, Jacuzzi tubs."));
-        attractions.add(new Attraction("Wildflower", "160 Main Street", "Sustainable boutique motel, wifi & breakfast"));
-        attractions.add(new Attraction("Roseman Creek Ranch", "42450 Roseman Creek Rd, Gualala, CA 95445", "Off-grid permaculture farm, farm stays & camping."));
-        attractions.add(new Attraction("Oz Farm & Retreat Center", "Mt. View Road", "7 cabins, Community CHoue & Geodesic Domes."));
-        attractions.add(new Attraction("Coast Guard House Historic Inn & Cottages", "695 Arena Cv, Point Arena, CA 95468", "Private ocean-view cottage with fireplaces & whirlpool spas."));
+        attractions.add(new Attraction("215  Main", "215 Main St., Point Arena, CA 95468", "Friendly pub serving beer, wine, champagne, port & food."));
+        attractions.add(new Attraction("Arena Market & Cafe", "185 Main St., Point Arena, CA 95468", "Organic produce, grocery, soup & salad bar, barista & wifi"));
+        attractions.add(new Attraction("Bird Cafe & Supper Cafe", "192 Main St., Point Arena, CA 95468", "Food for the flock - seasonal & locally sourced cuisine."));
+        attractions.add(new Attraction("Cove Coffee", "Arena Cove", "Coffee, sandwiches, smoothies, gifts & bait."));
+        attractions.add(new Attraction("Fanny's Cup & Saucer", "213 Main St., Point Arena, CA 95468", "Exotic pastries & unusual ephemera."));
+        attractions.add(new Attraction("River Grill Restaurant", "22215 Windy Hollow Drive, Point Arena, CA 95468", "Food, wine at beer at the Garcia River Casino"));
+        attractions.add(new Attraction("Point Arena General Store", "187 Main St., Point Arena, CA 95468", "Groceries, deli, meats, beer, wine, pizza, ice & bait."));
+        attractions.add(new Attraction("Rollerville Cafe", "22900 Hwy 1 North", "Breakfast & Lunch daily."));
+
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 

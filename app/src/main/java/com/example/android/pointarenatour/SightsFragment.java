@@ -24,11 +24,11 @@ public class SightsFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Wharf Master's Inn", "785 Port Rd, Point Arena, CA 95468", "Ocean views,private balconies, fireplaces, Jacuzzi tubs."));
-        attractions.add(new Attraction("Wildflower", "160 Main Street", "Sustainable boutique motel, wifi & breakfast"));
-        attractions.add(new Attraction("Roseman Creek Ranch", "42450 Roseman Creek Rd, Gualala, CA 95445", "Off-grid permaculture farm, farm stays & camping."));
-        attractions.add(new Attraction("Oz Farm & Retreat Center", "Mt. View Road", "7 cabins, Community CHoue & Geodesic Domes."));
-        attractions.add(new Attraction("Coast Guard House Historic Inn & Cottages", "695 Arena Cv, Point Arena, CA 95468", "Private ocean-view cottage with fireplaces & whirlpool spas."));
+        attractions.add(new Attraction("Point Arena-Stornetta Unit of the California Coastal National Monument", "Take the trail behind City Hall or head out on Lighthoue Road", "Head out for a bluff trail or meander into the beach cove"));
+        attractions.add(new Attraction("Manchester Beach", "Access via Stonesboro Road in Manchester", "5 mile beach. Beautiful hiking & camping."));
+        attractions.add(new Attraction("Arena Cove & Point Arena City Pier", "810 Port Rd, Point Arena, CA 95468", "Boat launch, hot showers, fishing, recycling drop-off."));
+        attractions.add(new Attraction("Pelican Bluffs Trail", "Between mile-marker 14.3 & 13.5 (1 mile south of Point Arena)", "Bluff trails showcase a forsest of Bishops pines & our stunning white cliffs"));
+        attractions.add(new Attraction("Bowling Ball Beach & Schooner Gulch", "Mile marker 11.41 (south of Point Arena)", "It is named for the spherical sandstone concretions found there at low tide."));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 

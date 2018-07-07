@@ -24,11 +24,11 @@ public class ShoppingFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("Wharf Master's Inn", "785 Port Rd, Point Arena, CA 95468", "Ocean views,private balconies, fireplaces, Jacuzzi tubs."));
-        attractions.add(new Attraction("Wildflower", "160 Main Street", "Sustainable boutique motel, wifi & breakfast"));
-        attractions.add(new Attraction("Roseman Creek Ranch", "42450 Roseman Creek Rd, Gualala, CA 95445", "Off-grid permaculture farm, farm stays & camping."));
-        attractions.add(new Attraction("Oz Farm & Retreat Center", "Mt. View Road", "7 cabins, Community CHoue & Geodesic Domes."));
-        attractions.add(new Attraction("Coast Guard House Historic Inn & Cottages", "695 Arena Cv, Point Arena, CA 95468", "Private ocean-view cottage with fireplaces & whirlpool spas."));
+        attractions.add(new Attraction("Outback Garden & Feed", "240 Main St., Point Arena, CA 95468", "Garden Nursery, feed &  pet supplies."));
+        attractions.add(new Attraction("Point Arena Tileworks", "80 Main St., Point Arena, CA 95468", "Handmade tiles. 1000's on display."));
+        attractions.add(new Attraction("Arena Pharmacy", "235 Main St., Point Arena, CA 95468", "Prescription, over the counter remedies, sundries, gifts & cards."));
+        attractions.add(new Attraction("Coast Highway Art Collective", "284 Main St., Point Arena, CA 95468", "Fine art and gifts made by local artists."));
+        attractions.add(new Attraction("The Green Room", "138 Main St., Point Arena, CA 95468", "Cannabis dispensary & accessories."));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 
