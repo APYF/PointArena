@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
+    android:id="@+id/list_Item"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/list_item_height">
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/list_item_top_padding">
 
     <ImageView
         android:id="@+id/attraction_image"
-        android:layout_width="@dimen/list_item_height"
-        android:layout_height="@dimen/list_item_height" />
+        android:layout_width="@dimen/attraction_image_width"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" />
 
     <LinearLayout
         android:id="@+id/list_item_text_layout"
@@ -22,41 +25,27 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:gravity="bottom"
+            android:gravity="top|center_vertical"
             android:paddingLeft="@dimen/list_item_left_padding"
             android:paddingRight="@dimen/list_item_right_padding"
             android:textColor="@color/fontColor"
-            android:textSize="18sp"
+            android:textSize="@dimen/font_size"
             android:textStyle="bold"
-            tools:text="Attraction Name"/>
-
-        <LinearLayout
-            android:id="@+id/attraction_address_layout"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:paddingLeft="@dimen/list_item_left_padding"
-            android:paddingRight="@dimen/list_item_right_padding">
-
-            <ImageView
-                android:id="@+id/map_icon"
-                android:layout_width="@dimen/icon_size"
-                android:layout_height="@dimen/icon_size"
-                android:layout_gravity="center"
-                android:src="@drawable/baseline_place_black_24" />
+            tools:text="Attraction Name" />
 
         <TextView
             android:id="@+id/attraction_address"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/baseline_place_black_24"
+            android:gravity="center_vertical|fill_vertical"
             android:paddingLeft="@dimen/list_item_left_padding"
+            android:singleLine="false"
             android:textColor="@color/fontColor2"
-            android:textSize="18sp"
+            android:textSize="@dimen/font_size2"
             tools:text="Attraction Address" />
-
-    </LinearLayout>
 
         <TextView
             android:id="@+id/attraction_description"
@@ -67,7 +56,7 @@
             android:paddingLeft="@dimen/list_item_left_padding"
             android:paddingRight="@dimen/list_item_right_padding"
             android:textColor="@color/fontColor2"
-            android:textSize="18sp"
+            android:textSize="@dimen/font_size2"
             tools:text="Attraction Description" />
 
 

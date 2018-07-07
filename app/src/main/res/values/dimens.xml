@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="list_item_height">150dp</dimen>
-    <dimen name="list_item_left_padding">16dp</dimen>
+    <dimen name="list_item_left_padding">10dp</dimen>
     <dimen name="list_item_right_padding">10dp</dimen>
+    <dimen name="list_item_top_padding">10dp</dimen>
     <dimen name="icon_size">24dp</dimen>
-    <dimen name="drawer_width">180dp</dimen>
+    <dimen name="attraction_image_width">100dp</dimen>
+    <dimen name="font_size">18sp</dimen>
+    <dimen name="font_size2">16dp</dimen>
+
 
 </resources>

@@ -28,7 +28,7 @@ public class AccommodationFragment extends Fragment {
         attractions.add(new Attraction("Wharf Master's Inn", "785 Port Rd, Point Arena, CA 95468", "Ocean views,private balconies, fireplaces, Jacuzzi tubs."));
         attractions.add(new Attraction("Wildflower", "160 Main St., Point Arena, CA 95468", "Sustainable boutique motel, wifi & breakfast"));
         attractions.add(new Attraction("Roseman Creek Ranch", "42450 Roseman Creek Rd, Gualala, CA 95445", "Off-grid permaculture farm, farm stays & camping."));
-        attractions.add(new Attraction("Oz Farm & Retreat Center", "Mt. View Road, Point Arena, CA 95468", "7 cabins, Community CHoue & Geodesic Domes."));
+        attractions.add(new Attraction("Oz Farm & Retreat Center", "41601 Mountain View Rd, Manchester, CA 95459", "7 cabins, Community CHoue & Geodesic Domes."));
         attractions.add(new Attraction("Coast Guard House Historic Inn & Cottages", "695 Arena Cv, Point Arena, CA 95468", "Private ocean-view cottage with fireplaces & whirlpool spas."));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
