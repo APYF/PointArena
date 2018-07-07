@@ -1,5 +1,6 @@
 package com.example.android.pointarenatour;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -24,15 +25,31 @@ public class DiningFragment extends Fragment {
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
 
-        attractions.add(new Attraction("215  Main", "215 Main St., Point Arena, CA 95468", "Friendly pub serving beer, wine, champagne, port & food."));
-        attractions.add(new Attraction("Arena Market & Cafe", "185 Main St., Point Arena, CA 95468", "Organic produce, grocery, soup & salad bar, barista & wifi"));
-        attractions.add(new Attraction("Bird Cafe & Supper Cafe", "192 Main St., Point Arena, CA 95468", "Food for the flock - seasonal & locally sourced cuisine."));
-        attractions.add(new Attraction("Cove Coffee", "790 Port Rd, Point Arena, CA 95468", "Coffee, sandwiches, smoothies, gifts & bait."));
-        attractions.add(new Attraction("Fanny's Cup & Saucer", "213 Main St., Point Arena, CA 95468", "Exotic pastries & unusual ephemera."));
-        attractions.add(new Attraction("River Grill Restaurant", "22215 Windy Hollow Drive, Point Arena, CA 95468", "Food, wine at beer at the Garcia River Casino"));
-        attractions.add(new Attraction("Point Arena General Store", "187 Main St., Point Arena, CA 95468", "Groceries, deli, meats, beer, wine, pizza, ice & bait."));
-        attractions.add(new Attraction("Rollerville Cafe", "22900 Hwy 1 North", "Breakfast & Lunch daily."));
+        Resources res = getResources();
 
+        String listingStrings1[] = res. getStringArray(R.array.dining_1);
+        attractions.add(new Attraction(listingStrings1[0], listingStrings1[1], listingStrings1[2]));
+
+        String listingStrings2[] = res. getStringArray(R.array.dining_2);
+        attractions.add(new Attraction(listingStrings2[0], listingStrings2[1], listingStrings2[2]));
+
+        String listingStrings3[] = res. getStringArray(R.array.dining_3);
+        attractions.add(new Attraction(listingStrings3[0], listingStrings3[1], listingStrings3[2]));
+
+        String listingStrings4[] = res. getStringArray(R.array.dining_4);
+        attractions.add(new Attraction(listingStrings4[0], listingStrings4[1], listingStrings4[2]));
+
+        String listingStrings5[] = res. getStringArray(R.array.dining_5);
+        attractions.add(new Attraction(listingStrings5[0], listingStrings5[1], listingStrings5[2]));
+
+        String listingStrings6[] = res. getStringArray(R.array.dining_6);
+        attractions.add(new Attraction(listingStrings6[0], listingStrings6[1], listingStrings6[2]));
+
+        String listingStrings7[] = res. getStringArray(R.array.dining_7);
+        attractions.add(new Attraction(listingStrings7[0], listingStrings7[1], listingStrings7[2]));
+
+        String listingStrings8[] = res. getStringArray(R.array.dining_8);
+        attractions.add(new Attraction(listingStrings8[0], listingStrings8[1], listingStrings8[2]));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
 

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dining_1">
+        <item>215  Main</item>
+        <item>215 Main St., Point Arena, CA 95468</item>
+        <item>Friendly pub serving beer, wine, champagne, port &amp; food.</item>
+    </string-array>
+    <string-array name="dining_2">
+        <item>Arena Market &amp; Cafe</item>
+        <item>185 Main St., Point Arena, CA 95468</item>
+        <item>Organic produce, grocery, soup &amp; salad bar, barista &amp; wifi</item>
+    </string-array>
+    <string-array name="dining_3">
+        <item>Bird Cafe &amp; Supper Cafe</item>
+        <item>192 Main St., Point Arena, CA 95468</item>
+        <item>Food for the flock - seasonal &amp; locally sourced cuisine.</item>
+    </string-array>
+    <string-array name="dining_4">
+        <item>Cove Coffeer</item>
+        <item>790 Port Rd, Point Arena, CA 95468</item>
+        <item>Coffee, sandwiches, smoothies, gifts &amp; bait.</item>
+    </string-array>
+    <string-array name="dining_5">
+        <item>Fanny\'s Cup &amp; Saucer</item>
+        <item>213 Main St., Point Arena, CA 95468</item>
+        <item>Exotic pastries &amp; unusual ephemera.</item>
+    </string-array>
+    <string-array name="dining_6">
+        <item>River Grill Restaurant</item>
+        <item>22215 Windy Hollow Drive, Point Arena, CA 95468</item>
+        <item>Food, wine at beer at the Garcia River Casino</item>
+    </string-array>
+    <string-array name="dining_7">
+        <item>Point Arena General Store</item>
+        <item>187 Main St., Point Arena, CA 95468</item>
+        <item>Groceries, deli, meats, beer, wine, pizza, ice &amp; bait.</item>
+    </string-array>
+    <string-array name="dining_8">
+        <item>Rollerville Cafe</item>
+        <item>22900 Shoreline Hwy, Point Arena, CA 95468</item>
+        <item>Breakfast &amp; Lunch daily.</item>
+    </string-array>
+</resources>

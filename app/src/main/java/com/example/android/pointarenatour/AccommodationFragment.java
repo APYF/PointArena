@@ -28,19 +28,19 @@ public class AccommodationFragment extends Fragment {
 
         Resources res = getResources();
 
-        String listingStrings1[] = res. getStringArray(R.array.accomodations_1);
+        String listingStrings1[] = res. getStringArray(R.array.accommodations_1);
         attractions.add(new Attraction(listingStrings1[0], listingStrings1[1], listingStrings1[2]));
 
-        String listingStrings2[] = res. getStringArray(R.array.accomodations_2);
+        String listingStrings2[] = res. getStringArray(R.array.accommodations_2);
         attractions.add(new Attraction(listingStrings2[0], listingStrings2[1], listingStrings2[2]));
 
-        String listingStrings3[] = res. getStringArray(R.array.accomodations_3);
+        String listingStrings3[] = res. getStringArray(R.array.accommodations_3);
         attractions.add(new Attraction(listingStrings3[0], listingStrings3[1], listingStrings3[2]));
 
-        String listingStrings4[] = res. getStringArray(R.array.accomodations_4);
+        String listingStrings4[] = res. getStringArray(R.array.accommodations_4);
         attractions.add(new Attraction(listingStrings4[0], listingStrings4[1], listingStrings4[2]));
 
-        String listingStrings5[] = res. getStringArray(R.array.accomodations_5);
+        String listingStrings5[] = res. getStringArray(R.array.accommodations_5);
         attractions.add(new Attraction(listingStrings5[0], listingStrings5[1], listingStrings5[2]));
 
         AttractionAdapter attractionAdapter = new AttractionAdapter(getActivity(), attractions);
