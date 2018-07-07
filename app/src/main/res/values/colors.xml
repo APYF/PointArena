@@ -5,4 +5,5 @@
     <color name="colorAccent">#00796B</color>
     <color name="backgroundColor">#E0F2F1</color>
     <color name="drawerColor">#80CBC4</color>
+    <color name="fontColor">#004D40</color>
 </resources>

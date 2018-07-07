@@ -9,10 +9,9 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class AccommodationFragment extends Fragment {
+public class DiningFragment extends Fragment {
 
-
-    public AccommodationFragment() {
+    public DiningFragment() {
         // Required empty public constructor
     }
 
